@@ -16,22 +16,40 @@
     <ClInclude Include="CEnemy.h" />
     <ClInclude Include="CEnemy_Player.h" />
     <ClInclude Include="CGameHost.h" />
+    <ClInclude Include="CharacterObject.h" />
     <ClInclude Include="CHit.h" />
     <ClInclude Include="CHp.h" />
     <ClInclude Include="CPlayer.h" />
     <ClInclude Include="CTime.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="PanelObject.h" />
+    <ClInclude Include="Renderer.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="SoundFX.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Updater.h" />
+    <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CBullet.cpp" />
     <ClCompile Include="CCombo.cpp" />
     <ClCompile Include="CEnemy.cpp" />
     <ClCompile Include="CGameHost.cpp" />
+    <ClCompile Include="CharacterObject.cpp" />
     <ClCompile Include="CHit.cpp" />
     <ClCompile Include="CHp.cpp" />
     <ClCompile Include="CPlayer.cpp" />
     <ClCompile Include="CTime.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="PanelObject.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="SoundFX.cpp" />
+    <ClCompile Include="Updater.cpp" />
+    <ClCompile Include="Window.cpp" />
     <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Transform.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="OOP_Project_04.rc" />
