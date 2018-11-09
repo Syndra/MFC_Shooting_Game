@@ -4,17 +4,27 @@
 #include <windows.h>
 #include <vector>
 #include <iostream>
+
+/* REFACT
+#include "header/CRenderer/CBulletRenderer.h"
+#include "header/CRenderer/CBulletUpdate.h"
+*/
 using namespace std;
 
+//R
 #define BULLET_SPEED 6
 #define BULLET_WIDTH 5
 #define BULLET_HEIGHT 10
 
 class CBulletBody {
+
+	//T
 	int X, Y;
+	//R
 	HBRUSH hBrush;
 	HBRUSH hEnemyBrush;
 	HPEN hPen;
+	//U
 	BOOL bEnemy;
 
 	void MoveBody();
@@ -30,6 +40,10 @@ public:
 };
 
 class CBullet {
+	/* REFACT
+	class CBullet : public CGameObject {
+
+	*/
 	vector<CBulletBody*> Body;
 	int Delay;
 	BOOL IsBulletOn;
