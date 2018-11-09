@@ -25,7 +25,7 @@ void CBulletBody::MoveBody() {
 }
 
 int CBulletBody::GetX() { return X; }
-int CBulletBody::GetY() { return Y; } 
+int CBulletBody::GetY() { return Y; }
 
 void CBulletBody::Update() {
 	MoveBody();
